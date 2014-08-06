@@ -1,0 +1,20 @@
+{
+  "name": "packer-unit",
+  "version": "0.0.1",
+  "main": "packer-unit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/packerjs/packer-unit.git"
+  },
+  "author": {
+    "name": "Willem Veelenturf"
+  },
+  "dependencies": {
+    "grunt-karma": "0.8.3",
+    "karma": "^0.12.0",
+    "karma-jasmine": "0.2.2",
+    "karma-coverage": "0.2.4",
+    "karma-chrome-launcher": "~0.1.4",
+    "packer-core": "~0.0.1"
+  }
+}
