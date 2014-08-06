@@ -20,7 +20,7 @@ module.exports = {
 		    },
 		    coverageReporter: {
 		      type : 'html',
-		      dir : '../coverage/'
+		      dir : './coverage/'
 		    }
     	},
 		unit: {
