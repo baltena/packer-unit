@@ -5,7 +5,7 @@ module.exports = {
    			frameworks: ['jasmine'],
       		files: [
       			'bower_components/angular/angular.js',
-      			'bower_components/angular-mocks/angular-mocks.js',
+      			'bower_components/angular-*/angular-*.js',
       			'src/app/*.js',
       			'src/app/**/*.js',
       			'test/unit/**/*.js'
