@@ -3,13 +3,7 @@ module.exports = {
 		options: {
 			basePath: '',
    			frameworks: ['jasmine'],
-      		files: [
-      			'bower_components/angular/angular.js',
-      			'bower_components/angular-*/angular-*.js',
-      			'src/app/*.js',
-      			'src/app/**/*.js',
-      			'test/unit/**/*.js'
-      		],
+      		configFile: 'test/karma.config.js',
       		browsers:[
       			'Chrome'
       		],
